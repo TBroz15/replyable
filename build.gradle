@@ -109,7 +109,7 @@ neoForge {
 
             jvmArgument("-XX:+IgnoreUnrecognizedVMOptions")
             jvmArgument("-XX:+AllowEnhancedClassRedefinition")
-            jvmArgument("-Xmx3G")
+            jvmArgument("-Xmx1760M")
             jvmArgument("-Dterminal.ansi=true")
 
             logLevel = org.slf4j.event.Level.DEBUG
@@ -172,9 +172,7 @@ dependencies {
 
     /** Not Dependencies (if unstable, temporarily disable these mods under) **/
     // QOL
-    runtimeOnly "maven.modrinth:HHlTF7u0:q1gpE9y4"
     runtimeOnly "maven.modrinth:l6YH9Als:v5qtqRQi"
-    runtimeOnly "maven.modrinth:XqqOkvZz:lnOeoKcQ"
     runtimeOnly("maven.modrinth:jade:yd8FKCmx")      // Jade-1.21.1-NeoForge-15.10.5.jar
     runtimeOnly("maven.modrinth:jei:YAcQ6elZ")       // jei-1.21.1-neoforge-19.27.0.340.jar
     runtimeOnly("maven.modrinth:emi:5sIPA1To")       // emi-1.1.24+1.21.1+neoforge.jar
